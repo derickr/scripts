@@ -1,9 +1,13 @@
-#/bin/sh
+#!/bin/sh
 #
 #  Shell script to resize and move the active window relative to its current
 #  position; depends on wmctrl <http://tripie.sweb.cz/utils/wmctrl/>.
 #  Version 0.0.1
 #  Copyright (c) 2009  Stefan Stuhr
+#
+#  Changes:
+#  2011-11-16: Added the "b" and "s" options for bumping and resizing to the egdes
+#  of the screen (Derick Retans)
 #
 #  Permission is hereby granted, free of charge, to any person obtaining a copy
 #  of this software and associated documentation files (the "Software"), to deal
